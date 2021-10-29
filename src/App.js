@@ -27,7 +27,6 @@ class App extends React.Component{
     return (
       <>
       <UsersList users={users} setUsers={this.setUsers}/>
-      {/* <SelectedUsersList users={users}/> */}
       </>
     );
   }
